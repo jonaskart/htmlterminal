@@ -47,6 +47,12 @@ li {
     padding-right: 5px;
 }
 
+.x {
+  border-radius: 10px;
+  background-color: #73AD21;
+  height: 20px;
+}
+
 body {
     background-color: rgb(34, 34, 38);
 }
@@ -55,13 +61,8 @@ main {
     padding-top: 60px;
 }
 
-.console {
-    position: absolute;
-}
-
 .consolelist {
     display: flex;
-    flex-direction: row;
 }
 
 #hiddencommand {
